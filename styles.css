@@ -1,0 +1,35 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+
+:root{
+    --base: #FFF000;
+    --spacing: 10px;
+    --blur: 3px;
+}
+
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    width: 20%;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+h2{
+    font-size: 2.5rem;
+}
+.slider{
+    margin: 20px;
+    margin-bottom: 80px;
+    cursor: pointer;
+    
+}
+.hl{
+    color: var(--base);
+}
